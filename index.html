@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>LP Dama</title>
+</head>
+<body>
+    <div class="wrapper" id="id0">
+    <header>
+        <div class="center">
+            <a href="#id0" class="logo"><img src="img/logo.png" alt="logo"></a>
+            <nav>
+                <a href="#id1">Расродажа дня</a>
+                <a href="#id2" >Популярные продукты</a>
+                <a href="#id3">Горячие на этой неделе</a>
+                <a href="#id4">Другие продукты</a> 
+            </nav>
+            <div class="menu_toggle"><span></span></div>       
+        </div>
+
+    </header>
+    <section class="main_slider">
+        <div class="center">
+            <ul>
+                <li>
+                    <img src="img/slider-phone-img.png" alt="headphone">
+                    <div class="main_slider_text">
+                        <h3 class="main_slider_title">Наушники</h3>
+                        <p class="main_slider_desc">Высокотехнологичные наушники</p>
+                        <p class="main_slider_price">10 800 руб.</p>
+                        <a href="#" data-title="Headphone" data-category="Headphone" data-price="10 800 р." data-desc="Headphone" data-img="img/slider-phone-img.png"  class="main_slider_btn open_popup">Купить сейчас<i></i></a>
+                    </div>
+                </li>
+
+                <li>
+                        <img src="img/slide 2.png" alt="headphone2">
+                        <div class="main_slider_text">
+                            <h3 class="main_slider_title">Dr. Dre</h3>
+                            <p class="main_slider_desc">Высокотехнологичные наушники</p>
+                            <p class="main_slider_price">24 000 руб.</p>
+                            <a href="#" data-title="Headphone" data-category="Headphone" data-price="24 000 р." data-desc="Headphone" data-img="img/slide 2.png"  class="main_slider_btn open_popup">Купить сейчас<i></i></a>
+                        </div>
+                </li>
+
+                <li>
+                    <img src="img/slide 3.png" alt="headphone3">
+                        <div class="main_slider_text">
+                            <h3 class="main_slider_title">Monster Beats</h3>
+                            <p class="main_slider_desc">Высокотехнологичные наушники</p>
+                            <p class="main_slider_price">18 000 руб.</p>
+                            <a href="#" data-title="Headphone" data-category="Headphone" data-price="18 000 р." data-desc="Headphone" data-img="img/slide 3.png" class="main_slider_btn open_popup">Купить сейчас<i></i></a>
+                        </div>
+                </li>
+
+            </ul>
+            <div class="main_slider_controls">
+                <div class="main_slider_controls_count">
+                    <span></span>/<ins></ins>
+                </div>
+                <div class="main_slider_controls_pags">
+                </div>
+                <div class="main_slider_btns">
+                    <button class="prev"></button>
+                    <button class="next"></button>  
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="sale" id="id1">
+        <div class="center">
+            <h2 class="h2"><span>Р</span>аспродажа дня</h2>
+            <div class="sale_block">
+                <div class="sale_block_left">
+                    <img src="img/product-image.png" alt="">
+                    <div class="counter_sale">
+                        <div class="counter_sale_title">
+                            <span>iphone 6s silver-64gb</span>
+                            <p>Скидка: <ins>6000 руб. - 10000 руб.</ins></p>
+                        </div>
+                        <div class="counter_sale_decs">
+                            Круто, очень круто
+                        </div>
+                           
+                        <div class="countdown countdown-container container">
+                            <div class="clock row">
+                                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-days" class="clock-canvas"></div>
+                        
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-days type-time">Дней</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-hours" class="clock-canvas"></div>
+                        
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-hours type-time">Часов</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-minutes" class="clock-canvas"></div>
+                        
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-minutes type-time">Минут</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas-seconds" class="clock-canvas"></div>
+                        
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-seconds type-time">Секунд</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="soc">
+                        <a href="#"><img src="img/refresh.png" alt=""></a>
+                        <a href="#"><img src="img/ico_like.png" alt=""></a>
+                        <a href="#"><img src="img/backet.png" alt=""></a>
+                    </div>
+            </div>
+
+            <div class="sale_block_right">
+                <ul>
+                    <li>
+                        <div class="sale_block_right_category">Watch</div>
+                        <div class="sale_block_right_title">Apple Watch sport green</div>
+                        <div class="sale_block_right_price">price: <span>$ 400</span></div>
+                        <div class="sale_block_right_img"><img src="img/g1.png" alt=""></div>
+                        <div class="soc">
+                            <a href="#"><img src="img/refresh.png" alt=""></a>
+                            <a href="#"><img src="img/ico_like.png" alt=""></a>
+                            <a href="#"><img src="img/backet.png" alt=""></a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="sale_block_right_category">Headphone</div>
+                        <div class="sale_block_right_title">Best Beautiful</div>
+                        <div class="sale_block_right_price">price: <span>$ 400</span></div>
+                        <div class="sale_block_right_img"><img src="img/g2.png" alt=""></div>
+                        <div class="soc">
+                            <a href="#"><img src="img/refresh.png" alt=""></a>
+                            <a href="#"><img src="img/ico_like.png" alt=""></a>
+                            <a href="#"><img src="img/backet.png" alt=""></a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="sale_block_right_category">Headphone</div>
+                        <div class="sale_block_right_title">Beat Phone VIP</div>
+                        <div class="sale_block_right_price">price: <span>$ 450</span></div>
+                        <div class="sale_block_right_img"><img src="img/g3.png" alt=""></div>
+                        <div class="soc">
+                            <a href="#"><img src="img/refresh.png" alt=""></a>
+                            <a href="#"><img src="img/ico_like.png" alt=""></a>
+                            <a href="#"><img src="img/backet.png" alt=""></a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="sale_block_right_category">Headphone</div>
+                        <div class="sale_block_right_title">Beat Studio Wireless</div>
+                        <div class="sale_block_right_price">price: <span>$ 250</span></div>
+                        <div class="sale_block_right_img"><img src="img/g4.png" alt=""></div>
+                        <div class="soc">
+                            <a href="#"><img src="img/refresh.png" alt=""></a>
+                            <a href="#"><img src="img/ico_like.png" alt=""></a>
+                            <a href="#"><img src="img/backet.png" alt=""></a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+            
+            </div>
+
+            
+
+        </div>
+   </section>
+
+    <section class="popular" id="id2">
+        <div class="center">
+            <h2 class="h2"><span>P</span>OPULAR PRODUCT</h2>
+            <div class="popular_tab_btns">
+                <a class="active"  href="#"><img src="img/t1.png" alt=""></a>
+                <a href="#"><img src="img/t2.png" alt=""></a>
+                <a href="#"><img src="img/t3.png" alt=""></a>
+                <a href="#"><img src="img/t4.png" alt=""></a>
+                <a href="#"><img src="img/t5.png" alt=""></a>
+                <a href="#"><img src="img/t6.png" alt=""></a>
+            </div>
+            <div class="popular_all_tabs_block">
+                <ul class="active">
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g5.png" alt="">
+                                    <img src="img/g6.png" alt="">
+                                    <img src="img/g7.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g8.png" alt="">
+                                    <img src="img/g10.png" alt="">
+                                    <img src="img/g11.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g5.png" alt="">
+                                    <img src="img/g6.png" alt="">
+                                    <img src="img/g7.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g5.png" alt="">
+                                    <img src="img/g6.png" alt="">
+                                    <img src="img/g7.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g5.png" alt="">
+                                    <img src="img/g6.png" alt="">
+                                    <img src="img/g7.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g5.png" alt="">
+                                    <img src="img/g6.png" alt="">
+                                    <img src="img/g7.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="popular_main_goods_left">
+                            <div class="popular_gallery">
+                                <div class="popular_gallery_main">
+                                    <img class="active" src="img/g5.png" alt="">
+                                    <img src="img/g6.png" alt="">
+                                    <img src="img/g7.png" alt="">
+                                </div>
+                                <div class="popular_gallery_prev">
+                                    <span class="active"><img src="img/g5.png" alt=""></span>
+                                    <span><img src="img/g6.png" alt=""></span>
+                                    <span><img src="img/g7.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular_main_goods_right">
+                            <div class="popular_goods_title">Apple Watch sport green</div>
+                            <div class="popular_goods_price">price: <span>$450</span></div>
+                            <div class="popular_goods_char">
+                                <span>Windows 10</span>
+                                <span>AMD Rizen 3</span>
+                                <span>AMD RAdeon Vega 60</span>
+                            </div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g6.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g7.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g8.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g9.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g10.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                    <li>
+                        <div class="popular_goods_title">Apple Watch sport green</div>
+                        <div class="popular_goods_price">price: <span>$350</span></div>
+                        <div class="popular_goods_img">
+                            <img src="img/g11.png" alt="">
+                        </div>
+                        <div class="popular_goods_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="black_section" id="id3">
+        <div class="center">
+            <div class="black_section_circle"></div>
+                <div class="black_section_carousel">
+                    <ul>
+                        <li>
+                            <div class="black_section_carousel_mainimg">
+                                <img class="active" src="img/g12_car.png" alt="">
+                                <img src="img/g13_car.png" alt="">
+                                <img src="img/g14_car.png" alt="">
+                            </div>
+                            <div class="black_section_carousel_prevnimg">
+                                <span class="active"><img src="img/g12_car.png" alt=""></span>
+                                <span><img src="img/g13_car.png" alt=""></span>
+                                <span><img src="img/g14_car.png" alt=""></span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="black_section_carousel_mainimg">
+                                <img class="active" src="img/g14_car.png" alt="">
+                                <img src="img/g14_car.png" alt="">
+                                <img src="img/g13_car.png" alt="">
+                            </div>
+                            <div class="black_section_carousel_prevnimg">
+                                <span class="active"><img src="img/g12_car.png" alt=""></span>
+                                <span><img src="img/g14_car.png" alt=""></span>
+                                <span><img src="img/g13_car.png" alt=""></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="prev"></button>
+                    <button class="next"></button>
+                </div> 
+                <div class="black_section_right">
+                        <h2 class="h2"><span>Г</span>орячие товары недели</h2>
+                        <p>1111</p>
+                        <p>222</p>
+                        <ul>
+                            <li>1</li>
+                            <li> 2</li>
+                            <li>3</li>
+                        </ul>
+                        <div class="price"><span>price:</span> <ins>$250.00</ins> - $380.00
+                        </div>
+                        <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                        </div> 
+                </div>
+        </div>
+</section>
+<section class="multi" id="id4">
+    <div class="center">
+        <div class="multi_block">
+            <h3 class="h3"><span>Б</span>удущие товары</h3>
+            <ul>
+                <li>
+                    <div class="multi_img"><img src="img/m1.png" alt="img"></div>
+                    <div class="multi_text">
+                        <div class="multi_category">VIP</div>
+                        <div class="multi_title">Goods</div>
+                        <div class="price">price: <span>$450,00</span></div>
+                        <div class="soc">
+                            <a href="#"><img src="img/refresh.png" alt=""></a>
+                            <a href="#"><img src="img/ico_like.png" alt=""></a>
+                            <a href="#"><img src="img/backet.png" alt=""></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                        <div class="multi_img"><img src="img/m3.png" alt="img"></div>
+                        <div class="multi_text">
+                            <div class="multi_category">VIP</div>
+                            <div class="multi_title">Goods</div>
+                            <div class="price">price: <span>$450,00</span></div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                </li>
+
+                <li>
+                    <div class="multi_img"><img src="img/m3.png" alt="img"></div>
+                        <div class="multi_text">
+                            <div class="multi_category">VIP</div>
+                            <div class="multi_title">Goods</div>
+                            <div class="price">price: <span>$450,00</span></div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                             </div>
+                        </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="multi_block">
+                <h3 class="h3"><span>П</span>опулярные товары</h3>
+                <ul>
+                    <li>
+                        <div class="multi_img"><img src="img/m4.png" alt="img"></div>
+                        <div class="multi_text">
+                            <div class="multi_category">VIP</div>
+                            <div class="multi_title">Goods</div>
+                            <div class="price">price: <span>$450,00</span></div>
+                            <div class="soc">
+                                <a href="#"><img src="img/refresh.png" alt=""></a>
+                                <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                <a href="#"><img src="img/backet.png" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+    
+                    <li>
+                            <div class="multi_img"><img src="img/m5.png" alt="img"></div>
+                            <div class="multi_text">
+                                <div class="multi_category">VIP</div>
+                                <div class="multi_title">Goods</div>
+                                <div class="price">price: <span>$450,00</span></div>
+                                <div class="soc">
+                                    <a href="#"><img src="img/refresh.png" alt=""></a>
+                                    <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                    <a href="#"><img src="img/backet.png" alt=""></a>
+                                    </div>
+                            </div>
+                    </li>
+    
+                    <li>
+                        <div class="multi_img"><img src="img/m7.png" alt="img"></div>
+                            <div class="multi_text">
+                                <div class="multi_category">VIP</div>
+                                <div class="multi_title">Goods</div>
+                                <div class="price">price: <span>$450,00</span></div>
+                                <div class="soc">
+                                    <a href="#"><img src="img/refresh.png" alt=""></a>
+                                    <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                    <a href="#"><img src="img/backet.png" alt=""></a>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="multi_block">
+                    <h3 class="h3"><span>Ф</span>антастика</h3>
+                    <ul>
+                        <li>
+                            <div class="multi_img"><img src="img/m7.png" alt="img"></div>
+                            <div class="multi_text">
+                                <div class="multi_category">VIP</div>
+                                <div class="multi_title">Goods</div>
+                                <div class="price">price: <span>$450,00</span></div>
+                                <div class="soc">
+                                    <a href="#"><img src="img/refresh.png" alt=""></a>
+                                    <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                    <a href="#"><img src="img/backet.png" alt=""></a>
+                                </div>
+                            </div>
+                        </li>
+        
+                        <li>
+                                <div class="multi_img"><img src="img/m8.png" alt="img"></div>
+                                <div class="multi_text">
+                                    <div class="multi_category">VIP</div>
+                                    <div class="multi_title">Goods</div>
+                                    <div class="price">price: <span>$450,00</span></div>
+                                    <div class="soc">
+                                        <a href="#"><img src="img/refresh.png" alt=""></a>
+                                        <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                        <a href="#"><img src="img/backet.png" alt=""></a>
+                                    </div>
+                                </div>
+                        </li>
+        
+                        <li>
+                            <div class="multi_img"><img src="img/m1.png" alt="img"></div>
+                                <div class="multi_text">
+                                    <div class="multi_category">VIP</div>
+                                    <div class="multi_title">Goods</div>
+                                    <div class="price">price: <span>$450,00</span></div>
+                                    <div class="soc">
+                                        <a href="#"><img src="img/refresh.png" alt=""></a>
+                                        <a href="#"><img src="img/ico_like.png" alt=""></a>
+                                        <a href="#"><img src="img/backet.png" alt=""></a>
+                                    </div>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+    </div>        
+ </section>
+
+ <footer>
+    <p>Кисловодск 2019</p>
+</footer>
+
+
+</div>
+
+
+
+<div class="popup">
+    <div class="close"></div>
+    <div class="popup_title">Закажи сейчас</div>
+    <div class="popup_content">
+        <div class="popup_img"><img src="img/m1.png" alt="img"></div>
+        <div class="popup_text">
+            <div class="popup_category">Clock</div>
+            <div class="popup_goods_title">Goods</div>
+            <div class="price">price: <span>$450,00</span></div>
+            <form action="">
+                <input type="text" name="phone" id="" placeholder="(905)123-45-67">
+                <button type="submit">Купить <i></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="bg_popup"></div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--<script src="js/pixelScreen.js"></script>-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.final-countdown.js"></script>
+    <script src="js/kinetic.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
